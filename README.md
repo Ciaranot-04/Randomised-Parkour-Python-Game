@@ -1,2 +1,2 @@
-# Randomised Parkour Game in Python
-Repository Dedicated to My Randomised Parkour Game in Python within Python.
+# Randomised Maze Game in Python
+Repository Dedicated to My Randomised Maze Game in Python within Python.
