@@ -1,2 +1,2 @@
-# Automatic-Snake-in-Python
-Repository Dedicated to My Automation of the game snake within Python.
+# Randomised Parkour Game in Python
+Repository Dedicated to My Randomised Parkour Game in Python within Python.
