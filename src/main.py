@@ -15,6 +15,7 @@ playerpos = pygame.Vector2(10,10)
 def drawplayer():
     pygame.draw.rect(screen, tempcol, (playerpos.x, playerpos.y, 20, 20))
 grids = grid.gridcreate(25,25)
+grid1, grid2, grid3, grid4 = grid.bordercreate(27)
 while running:
     #close on X
     for event in pygame.event.get():
@@ -35,8 +36,8 @@ while running:
         playerpos.x += 5
 
     #render
-    grid.gridbordercreater(screen)
     grid.griddraw(screen,grids,100,100)
+    grid.gridbordercreater(screen,grid1,grid2,grid3,grid4)
     drawplayer()
     pygame.display.flip()
 
